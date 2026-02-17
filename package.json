@@ -1,0 +1,60 @@
+{
+  "name": "@storm-ds/icons",
+  "version": "1.0.0",
+  "description": "Simple, clean icon set for modern web apps",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./metadata": {
+      "types": "./dist/metadata.d.ts",
+      "import": "./dist/metadata.mjs",
+      "require": "./dist/metadata.js"
+    },
+    "./svg/*": "./svg/*.svg"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saayym/storm-icons.git"
+  },
+  "homepage": "https://storm-project-web.vercel.app/docs/icons",
+  "bugs": {
+    "url": "https://github.com/saayym/storm-project/issues"
+  },
+  "files": [
+    "dist",
+    "svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js && tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src",
+    "clean": "rm -rf dist src/*.tsx node_modules"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "design-system"
+  ],
+  "author": "Storm Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "svgo": "^4.0.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,28 @@
+import { forwardRef } from 'react'
+
+interface ScanFaceProps extends React.SVGProps<SVGSVGElement> {}
+
+const ScanFace = forwardRef<SVGSVGElement, ScanFaceProps>(
+  (props, ref) => (
+    <svg
+      ref={ref}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M3 7V5a2 2 0 0 1 2-2h2m10 0h2a2 2 0 0 1 2 2v2m0 10v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="9" cy="10" r="1"/><circle cx="15" cy="10" r="1"/><path d="M9.5 15a3.5 3.5 0 0 0 5 0"/>
+    </svg>
+  )
+)
+
+ScanFace.displayName = 'ScanFace'
+
+export { ScanFace }
+export type { ScanFaceProps }

@@ -12,12 +12,12 @@ const MessageSquare = forwardRef<SVGSVGElement, MessageSquareProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      <path d="M3 3h18v14H9l-4 4v-4H3Z"/>
     </svg>
   )
 )

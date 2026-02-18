@@ -43,7 +43,7 @@ const svgoConfig = {
     'sortDefsChildren',
     {
       name: 'removeAttrs',
-      params: { attrs: ['xmlns', 'width', 'height', 'class'] },
+      params: { elemSeparator: ':', attrs: ['svg:width', 'svg:height', '*:xmlns', '*:class'] },
     },
   ],
 }
@@ -125,9 +125,9 @@ const ${componentName} = forwardRef<SVGSVGElement, ${componentName}Props>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
       ${innerSvg}

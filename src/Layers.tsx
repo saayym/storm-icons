@@ -12,12 +12,12 @@ const Layers = forwardRef<SVGSVGElement, LayersProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M12 2 2 7l10 5 10-5z"/><path d="M12 2 2 7l10 5 10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/>
+      <path d="m12 3 9 5-9 5-9-5z"/><path d="m3 12 9 5 9-5"/><path d="m3 16 9 5 9-5"/>
     </svg>
   )
 )

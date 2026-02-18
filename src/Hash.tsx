@@ -12,12 +12,12 @@ const Hash = forwardRef<SVGSVGElement, HashProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M4 9h16"/><path d="M4 15h16"/><path d="M10 3 8 21"/><path d="m16 3-2 18"/>
+      <path d="M4 9h16"/><path d="M4 15h16"/><path d="M9 3 7 21"/><path d="m17 3-2 18"/>
     </svg>
   )
 )

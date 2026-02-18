@@ -12,12 +12,12 @@ const Droplet = forwardRef<SVGSVGElement, DropletProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="m12 2.69 5.66 5.66a8 8 0 1 1-11.31 0z"/><path d="m12 2.69 5.66 5.66a8 8 0 1 1-11.31 0z"/>
+      <path d="m12 2.69 5.66 5.66a8 8 0 1 1-11.31 0z"/>
     </svg>
   )
 )

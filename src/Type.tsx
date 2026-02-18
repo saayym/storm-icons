@@ -12,9 +12,9 @@ const Type = forwardRef<SVGSVGElement, TypeProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
       <path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/>

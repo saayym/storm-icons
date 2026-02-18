@@ -12,12 +12,12 @@ const Menu = forwardRef<SVGSVGElement, MenuProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M4 6h16"/><path d="M4 12h12"/><path d="M4 18h8"/>
+      <path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h18"/>
     </svg>
   )
 )

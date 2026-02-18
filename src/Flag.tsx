@@ -12,12 +12,12 @@ const Flag = forwardRef<SVGSVGElement, FlagProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><path d="M4 22v-7"/>
+      <path d="M4 3v18"/><path d="M4 3h16l-4 5.5 4 5.5H4"/>
     </svg>
   )
 )

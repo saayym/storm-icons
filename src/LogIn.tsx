@@ -12,12 +12,12 @@ const LogIn = forwardRef<SVGSVGElement, LogInProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M15 3h5v18h-5"/><path d="M3 10h7"/><path d="M3 14h4"/><path d="m12 8 4 4-4 4"/>
+      <path d="M15 3h6v18h-6"/><path d="M3 12h12"/><path d="m11 8 4 4-4 4"/>
     </svg>
   )
 )

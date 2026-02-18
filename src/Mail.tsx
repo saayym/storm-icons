@@ -12,12 +12,12 @@ const Mail = forwardRef<SVGSVGElement, MailProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M4 6h16l2 2v10l-2 2H4l-2-2V8z"/><path d="M4 6h16l2 2v10l-2 2H4l-2-2V8z"/><path d="m2 8 10 6 10-6"/>
+      <path d="M3 4h18v16H3z"/><path d="m3 4 9 9 9-9"/>
     </svg>
   )
 )

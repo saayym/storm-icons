@@ -12,12 +12,12 @@ const ChevronsUp = forwardRef<SVGSVGElement, ChevronsUpProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m17 17-5-5-5 5"/><path d="m17 11-5-5-5 5"/>
+      <path d="m6 11 6-6 6 6"/><path d="m6 18 6-6 6 6"/>
     </svg>
   )
 )

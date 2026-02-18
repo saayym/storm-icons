@@ -12,12 +12,12 @@ const Mic = forwardRef<SVGSVGElement, MicProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="9" y="2" fill="currentColor" fillOpacity=".15" stroke="none" rx="3"/><rect x="9" y="2" rx="3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v4"/><path d="M8 23h8"/>
+      <rect width="6" height="11" x="9" y="3" rx="3"/><path d="M12 17v4"/><path d="M8 21h8"/><path d="M5 10a7 7 0 0 0 14 0"/>
     </svg>
   )
 )

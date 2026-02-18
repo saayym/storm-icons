@@ -12,12 +12,12 @@ const AlertTriangle = forwardRef<SVGSVGElement, AlertTriangleProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M12 3 2 21h20z"/><path d="M12 3 2 21h20z"/><path d="M12 9v4"/><path d="M12 17"/>
+      <path d="M12 3 3 21h18z"/><path d="M12 10v5"/><path d="M12 18h0"/>
     </svg>
   )
 )

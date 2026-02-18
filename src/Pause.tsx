@@ -12,12 +12,12 @@ const Pause = forwardRef<SVGSVGElement, PauseProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M6 4h4v16H6z"/><path fill="currentColor" fillOpacity=".15" stroke="none" d="M14 4h4v16h-4z"/><path d="M6 4h4v16H6z"/><path d="M14 4h4v16h-4z"/>
+      <path d="M6 4h4v16H6z"/><path d="M14 4h4v16h-4z"/>
     </svg>
   )
 )

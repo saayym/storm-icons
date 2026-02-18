@@ -12,12 +12,12 @@ const ArrowUp = forwardRef<SVGSVGElement, ArrowUpProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M10 21v-9"/><path d="M14 21v-5"/><path d="m6 10 6-7 6 7"/>
+      <path d="M12 19V5"/><path d="m5 12 7-7 7 7"/>
     </svg>
   )
 )

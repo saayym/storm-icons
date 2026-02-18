@@ -12,12 +12,12 @@ const SortDesc = forwardRef<SVGSVGElement, SortDescProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M11 13h10M11 9h7m-7-4h4"/><path d="m3 21 4-4 4 4"/><path d="M7 4v17"/>
+      <path d="M4 6h15"/><path d="M4 12h11"/><path d="M4 18h7"/>
     </svg>
   )
 )

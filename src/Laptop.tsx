@@ -12,12 +12,12 @@ const Laptop = forwardRef<SVGSVGElement, LaptopProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="3" y="4" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="3" y="4" rx="2"/><path d="M2 20h20"/>
+      <rect width="18" height="12" x="3" y="4" rx="2" ry="2"/><path d="M2 20h20"/>
     </svg>
   )
 )

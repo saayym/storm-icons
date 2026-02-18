@@ -12,9 +12,9 @@ const Bluetooth = forwardRef<SVGSVGElement, BluetoothProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
       <path d="m6.5 6.5 11 11L12 23V1l5.5 5.5-11 11"/>

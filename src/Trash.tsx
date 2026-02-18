@@ -12,12 +12,12 @@ const Trash = forwardRef<SVGSVGElement, TrashProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M6 7h12l-1 14H7z"/><path d="M4 7h16"/><path d="M6 7h12l-1 14H7z"/><path d="M10 3h4"/>
+      <path d="M4 6h16"/><path d="M10 3h4"/><path d="M10 3v3"/><path d="M14 3v3"/><path d="M6 6h12v15H6z"/><path d="M10 10v7"/><path d="M14 10v7"/>
     </svg>
   )
 )

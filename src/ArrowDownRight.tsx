@@ -12,12 +12,12 @@ const ArrowDownRight = forwardRef<SVGSVGElement, ArrowDownRightProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m7 7 10 10"/><path d="M11 17h6v-6"/>
+      <path d="m7 7 10 10"/><path d="M7 17h10V7"/>
     </svg>
   )
 )

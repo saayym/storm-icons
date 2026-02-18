@@ -12,12 +12,12 @@ const Image = forwardRef<SVGSVGElement, ImageProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="3" y="3" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="3" y="3" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/>
+      <path d="M3 3h18v18H3z"/><circle cx="8" cy="8" r="1.5"/><path d="m21 15-5-5L5 21"/>
     </svg>
   )
 )

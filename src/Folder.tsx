@@ -12,12 +12,12 @@ const Folder = forwardRef<SVGSVGElement, FolderProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="m3 8 2-3h4l2 3h7l2 2v8l-2 2H5l-2-2z"/><path d="m3 8 2-3h4l2 3h7l2 2v8l-2 2H5l-2-2z"/>
+      <path d="M3 6v14h18V8H11L9 6Z"/>
     </svg>
   )
 )

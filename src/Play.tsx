@@ -12,12 +12,12 @@ const Play = forwardRef<SVGSVGElement, PlayProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="m5 3 14 9-14 9z"/><path d="m5 3 14 9-14 9z"/>
+      <path d="M6 3v18l14-9z"/>
     </svg>
   )
 )

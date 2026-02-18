@@ -12,9 +12,9 @@ const Italic = forwardRef<SVGSVGElement, ItalicProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
       <path d="M19 4h-9"/><path d="M14 20H5"/><path d="M15 4 9 20"/>

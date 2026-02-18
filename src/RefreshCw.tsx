@@ -12,12 +12,12 @@ const RefreshCw = forwardRef<SVGSVGElement, RefreshCwProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+      <path d="M21 4v5h-5"/><path d="M3 20v-5h5"/><path d="M21 9A9 9 0 0 0 6.3 5.3L3 8"/><path d="M3 15a9 9 0 0 0 14.7 3.7L21 16"/>
     </svg>
   )
 )

@@ -12,12 +12,12 @@ const Copy = forwardRef<SVGSVGElement, CopyProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="8" y="8" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="8" y="8" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>
+      <path d="M4 8h12v14H4z"/><path d="M8 8V4h12v12h-4"/>
     </svg>
   )
 )

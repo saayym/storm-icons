@@ -12,12 +12,12 @@ const Power = forwardRef<SVGSVGElement, PowerProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><path d="M12 2v10"/>
+      <path d="M12 3v9"/><path d="M7.5 6.5a8 8 0 1 0 9 0"/>
     </svg>
   )
 )

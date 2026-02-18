@@ -12,12 +12,12 @@ const Settings = forwardRef<SVGSVGElement, SettingsProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <circle cx="12" cy="12" r="3" fill="currentColor" fillOpacity=".15" stroke="none"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/><circle cx="12" cy="12" r="3"/>
+      <circle cx="12" cy="12" r="3"/><path d="m10.3 2.3-.6 2.1a7.5 7.5 0 0 0-3.3 1.9l-2-.8-1.7 3 1.9 1.3a7.5 7.5 0 0 0 0 3.8l-1.9 1.3 1.7 3 2-.8A7.5 7.5 0 0 0 9.7 19l.6 2.1h3.4l.6-2.1a7.5 7.5 0 0 0 3.3-1.9l2 .8 1.7-3-1.9-1.3a7.5 7.5 0 0 0 0-3.8l1.9-1.3-1.7-3-2 .8a7.5 7.5 0 0 0-3.3-1.9l-.6-2.1z"/>
     </svg>
   )
 )

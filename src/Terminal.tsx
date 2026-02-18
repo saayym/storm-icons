@@ -12,12 +12,12 @@ const Terminal = forwardRef<SVGSVGElement, TerminalProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="3" y="3" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="3" y="3" rx="2"/><path d="m7 10 3 3-3 3"/><path d="M13 16h4"/>
+      <path d="M3 3h18v18H3z"/><path d="m7 9 4 4-4 4"/><path d="M13 17h4"/>
     </svg>
   )
 )

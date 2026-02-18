@@ -12,12 +12,12 @@ const Cloud = forwardRef<SVGSVGElement, CloudProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10"/><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10"/>
+      <path d="M6 19h12a5 5 0 0 0 1-9.9 7 7 0 0 0-13.6 2.8A4 4 0 0 0 6 19z"/>
     </svg>
   )
 )

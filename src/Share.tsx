@@ -12,12 +12,12 @@ const Share = forwardRef<SVGSVGElement, ShareProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m16 3 2 2-2 2-2-2z"/><path d="m4 10 2 2-2 2-2-2z"/><path d="m16 17 2 2-2 2-2-2z"/><path d="m6 13 8 5"/><path d="m14 5-8 6"/>
+      <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.7 10.7 6.6-4.4"/><path d="m8.7 13.3 6.6 4.4"/>
     </svg>
   )
 )

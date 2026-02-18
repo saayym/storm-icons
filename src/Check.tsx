@@ -12,12 +12,12 @@ const Check = forwardRef<SVGSVGElement, CheckProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M2 13h4l4 6L20 5"/>
+      <path d="m4 12 5 5L20 6"/>
     </svg>
   )
 )

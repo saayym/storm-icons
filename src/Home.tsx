@@ -12,12 +12,12 @@ const Home = forwardRef<SVGSVGElement, HomeProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M5 12v8l2 2h10l2-2v-8l-7-9z"/><path d="m3 12 9-9 9 9"/><path d="M5 12v8l2 2h10l2-2v-8"/><path d="M3 12h18"/><path d="M10 22v-5h4v5"/>
+      <path d="m3 12 9-8 9 8"/><path d="M5 11v9h14v-9"/>
     </svg>
   )
 )

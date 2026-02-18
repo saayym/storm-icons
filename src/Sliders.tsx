@@ -12,12 +12,12 @@ const Sliders = forwardRef<SVGSVGElement, SlidersProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M4 21v-7"/><path d="M4 10V3"/><path d="M12 21v-9"/><path d="M12 8V3"/><path d="M20 21v-5"/><path d="M20 12V3"/><path d="M1 14h6"/><path d="M9 8h6"/><path d="M17 16h6"/>
+      <path d="M6 3v18"/><path d="M12 3v18"/><path d="M18 3v18"/><path d="M4 8h4"/><path d="M10 15h4"/><path d="M16 10h4"/>
     </svg>
   )
 )

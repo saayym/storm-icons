@@ -12,12 +12,12 @@ const LogOut = forwardRef<SVGSVGElement, LogOutProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M4 3h5v18H4"/><path d="M12 10h8"/><path d="M15 14h5"/><path d="m17 8 4 4-4 4"/>
+      <path d="M9 21H3V3h6"/><path d="M9 12h12"/><path d="m17 8 4 4-4 4"/>
     </svg>
   )
 )

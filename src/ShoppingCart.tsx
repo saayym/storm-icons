@@ -12,12 +12,12 @@ const ShoppingCart = forwardRef<SVGSVGElement, ShoppingCartProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <circle cx="9" cy="21" r="1" fill="currentColor" fillOpacity=".15" stroke="none"/><circle cx="20" cy="21" r="1" fill="currentColor" fillOpacity=".15" stroke="none"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+      <path d="M3 3h2l2 13h11"/><path d="m7 16 1-9h12l-2 9z"/><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/>
     </svg>
   )
 )

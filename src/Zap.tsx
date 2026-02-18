@@ -12,12 +12,12 @@ const Zap = forwardRef<SVGSVGElement, ZapProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M13 2 3 14h9l-1 8 10-12h-9z"/><path d="M13 2 3 14h9l-1 8 10-12h-9z"/>
+      <path d="M13 2 4 13h8l-1 9 9-11h-8z"/>
     </svg>
   )
 )

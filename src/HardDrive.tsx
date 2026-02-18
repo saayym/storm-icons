@@ -12,12 +12,12 @@ const HardDrive = forwardRef<SVGSVGElement, HardDriveProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M22 12H2"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11"/><path d="M6 16h.01"/><path d="M10 16h.01"/>
+      <path d="M3 4h18v16H3z"/><path d="M3 14h18"/><circle cx="17.5" cy="17.5" r="1"/>
     </svg>
   )
 )

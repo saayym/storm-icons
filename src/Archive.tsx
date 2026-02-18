@@ -12,12 +12,12 @@ const Archive = forwardRef<SVGSVGElement, ArchiveProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="2" y="3" fill="currentColor" fillOpacity=".15" stroke="none" rx="1"/><path d="M21 8v13H3V8"/><rect x="2" y="3" rx="1"/><path d="M10 12h4"/>
+      <path d="M3 3h18v5H3z"/><path d="M5 8v13h14V8"/><path d="M10 12h4"/>
     </svg>
   )
 )

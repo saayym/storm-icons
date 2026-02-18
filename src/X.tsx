@@ -12,12 +12,12 @@ const X = forwardRef<SVGSVGElement, XProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m6 6 4 4"/><path d="m14 14 4 4"/><path d="m18 6-4 4"/><path d="m6 18 4-4"/>
+      <path d="m5 5 14 14"/><path d="M19 5 5 19"/>
     </svg>
   )
 )

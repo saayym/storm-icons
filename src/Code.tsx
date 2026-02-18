@@ -12,12 +12,12 @@ const Code = forwardRef<SVGSVGElement, CodeProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/>
+      <path d="m8 6-5 6 5 6"/><path d="m16 6 5 6-5 6"/>
     </svg>
   )
 )

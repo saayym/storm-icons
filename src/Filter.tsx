@@ -12,12 +12,12 @@ const Filter = forwardRef<SVGSVGElement, FilterProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M22 3H2l8 9.46V19l4 2v-8.54z"/><path d="M22 3H2l8 9.46V19l4 2v-8.54z"/>
+      <path d="M3 4h18l-7 9v7h-4v-7z"/>
     </svg>
   )
 )

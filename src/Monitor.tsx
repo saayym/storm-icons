@@ -12,12 +12,12 @@ const Monitor = forwardRef<SVGSVGElement, MonitorProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="2" y="3" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="2" y="3" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/>
+      <rect width="20" height="14" x="2" y="3" rx="2" ry="2"/><path d="M8 21h8"/><path d="M12 17v4"/>
     </svg>
   )
 )

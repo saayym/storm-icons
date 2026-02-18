@@ -12,12 +12,12 @@ const Upload = forwardRef<SVGSVGElement, UploadProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m3 17 2 2h14l2-2"/><path d="M10 19v-9"/><path d="M14 19v-5"/><path d="m7 8 5-5 5 5"/>
+      <path d="M12 16V4"/><path d="m7 8 5-5 5 5"/><path d="M5 20h14"/>
     </svg>
   )
 )

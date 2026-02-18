@@ -12,12 +12,12 @@ const Plus = forwardRef<SVGSVGElement, PlusProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M12 3v6"/><path d="M12 15v6"/><path d="M3 12h6"/><path d="M15 12h6"/>
+      <path d="M12 5v14"/><path d="M5 12h14"/>
     </svg>
   )
 )

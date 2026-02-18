@@ -12,12 +12,12 @@ const Calendar = forwardRef<SVGSVGElement, CalendarProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M4 5h16l2 2v13l-2 2H4l-2-2V7z"/><path d="M4 5h16l2 2v13l-2 2H4l-2-2V7z"/><path d="M2 10h20"/><path d="M8 2v4"/><path d="M16 2v4"/>
+      <rect width="16" height="16" x="4" y="5" rx="1"/><path d="M8 3v4"/><path d="M16 3v4"/><path d="M4 10h16"/>
     </svg>
   )
 )

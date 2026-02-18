@@ -12,12 +12,12 @@ const User = forwardRef<SVGSVGElement, UserProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M10 3h4l2 2v3l-2 2h-4L8 8V5z"/><path d="M10 3h4l2 2v3l-2 2h-4L8 8V5z"/><path d="M5 21v-2l3-4h8l3 4v2"/>
+      <circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/>
     </svg>
   )
 )

@@ -12,12 +12,12 @@ const Sidebar = forwardRef<SVGSVGElement, SidebarProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="3" y="3" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="M4 7h3"/><path d="M4 10h3"/><path d="M4 13h3"/>
+      <path d="M3 3h18v18H3z"/><path d="M9 3v18"/>
     </svg>
   )
 )

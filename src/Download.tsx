@@ -12,12 +12,12 @@ const Download = forwardRef<SVGSVGElement, DownloadProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m3 17 2 2h14l2-2"/><path d="M10 3v9"/><path d="M14 3v5"/><path d="m7 14 5 5 5-5"/>
+      <path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/>
     </svg>
   )
 )

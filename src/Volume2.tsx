@@ -12,12 +12,12 @@ const Volume2 = forwardRef<SVGSVGElement, Volume2Props>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M11 5 6 9H2v6h4l5 4z"/><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+      <path d="M3 8v8h4l6 5V3L7 8z"/><path d="M16 9.5a4 4 0 0 1 0 5"/><path d="M19 6.5a8 8 0 0 1 0 11"/>
     </svg>
   )
 )

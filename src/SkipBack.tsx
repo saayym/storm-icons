@@ -12,12 +12,12 @@ const SkipBack = forwardRef<SVGSVGElement, SkipBackProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M19 20 9 12l10-8z"/><path d="M19 20 9 12l10-8z"/><path d="M5 19V5"/>
+      <path d="M5 4v16"/><path d="M19 4v16L9 12z"/>
     </svg>
   )
 )

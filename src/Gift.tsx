@@ -12,12 +12,12 @@ const Gift = forwardRef<SVGSVGElement, GiftProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M3 8h18v4H3z"/><path d="M3 8h18v4H3z"/><path d="M3 12v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8"/><path d="M12 8v14"/><path d="M12 8a4 4 0 0 0-4-4c-1.5 0-3 .8-3 3s2 3 3 3h4"/><path d="M12 8a4 4 0 0 1 4-4c1.5 0 3 .8 3 3s-2 3-3 3h-4"/>
+      <path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/>
     </svg>
   )
 )

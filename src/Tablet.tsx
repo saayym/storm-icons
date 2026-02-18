@@ -12,12 +12,12 @@ const Tablet = forwardRef<SVGSVGElement, TabletProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="4" y="2" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="4" y="2" rx="2"/><path d="M10 18h4"/>
+      <rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M12 18h.01"/>
     </svg>
   )
 )

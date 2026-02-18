@@ -12,12 +12,12 @@ const Minus = forwardRef<SVGSVGElement, MinusProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M6 12h12"/><path d="M6 10v4"/><path d="M18 10v4"/>
+      <path d="M5 12h14"/>
     </svg>
   )
 )

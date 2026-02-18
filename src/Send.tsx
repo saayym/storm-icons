@@ -12,12 +12,12 @@ const Send = forwardRef<SVGSVGElement, SendProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m3 3 18 9-18 9 4-9z"/><path d="M7 12h14"/>
+      <path d="M22 2 11 13"/><path d="m22 2-7 20-4-9-9-4 20-7"/>
     </svg>
   )
 )

@@ -12,12 +12,12 @@ const BatteryLow = forwardRef<SVGSVGElement, BatteryLowProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="1" y="6" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="1" y="6" rx="2"/><path d="M23 10v4"/><rect x="4" y="10" rx=".5"/>
+      <rect width="18" height="10" x="2" y="7" rx="1"/><path d="M22 11v2"/><path fill="currentColor" stroke="none" d="M4 9h4v6H4z"/>
     </svg>
   )
 )

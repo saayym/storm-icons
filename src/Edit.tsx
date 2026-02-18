@@ -12,12 +12,12 @@ const Edit = forwardRef<SVGSVGElement, EditProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="m17 3 4 4L9 19H5v-4z"/><path d="m17 3 4 4L9 19H5v-4z"/><path d="m14.5 5.5 4 4"/>
+      <path d="m16 3 5 5L8 21H3v-5z"/><path d="m13 6 5 5"/>
     </svg>
   )
 )

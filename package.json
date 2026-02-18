@@ -1,6 +1,6 @@
 {
   "name": "@storm-ds/icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple, clean icon set for modern web apps",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

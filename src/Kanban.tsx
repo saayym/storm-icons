@@ -12,12 +12,12 @@ const Kanban = forwardRef<SVGSVGElement, KanbanProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="2" y="2" rx="1"/><rect x="10" y="2" rx="1"/><rect x="18" y="2" rx="1"/>
+      <rect width="5" height="18" x="3" y="3" rx="1"/><rect width="5" height="12" x="10" y="3" rx="1"/><rect width="5" height="8" x="17" y="3" rx="1"/>
     </svg>
   )
 )

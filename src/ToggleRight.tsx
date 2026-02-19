@@ -12,12 +12,12 @@ const ToggleRight = forwardRef<SVGSVGElement, ToggleRightProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="1" y="5" fill="currentColor" fillOpacity=".15" stroke="none" rx="7"/><rect x="1" y="5" rx="7"/><circle cx="16" cy="12" r="3"/>
+      <rect width="20" height="10" x="2" y="7" rx="5"/><circle cx="16" cy="12" r="3"/>
     </svg>
   )
 )

@@ -12,12 +12,12 @@ const CloudRain = forwardRef<SVGSVGElement, CloudRainProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10"/><path d="M4.14 15.08A7 7 0 0 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.97"/><path d="M16 14v6m-8-6v6m4-4v6"/>
+      <path d="M7 18a4.6 4.4 0 0 1 0-9 5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7"/><path d="M11 13v2m0 3v2m4-5v2m0 3v2"/>
     </svg>
   )
 )

@@ -12,12 +12,12 @@ const Banknote = forwardRef<SVGSVGElement, BanknoteProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="2" y="6" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><rect x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/>
+      <rect width="20" height="12" x="2" y="6" rx="1"/><circle cx="12" cy="12" r="3"/><path d="M2 12h3"/><path d="M19 12h3"/>
     </svg>
   )
 )

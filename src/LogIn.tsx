@@ -17,7 +17,7 @@ const LogIn = forwardRef<SVGSVGElement, LogInProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M15 3h6v18h-6"/><path d="M3 12h12"/><path d="m11 8 4 4-4 4"/>
+      <path d="M15 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2v-2"/><path d="M21 12H8l3-3"/><path d="m11 15-3-3"/>
     </svg>
   )
 )

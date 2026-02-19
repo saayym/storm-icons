@@ -12,12 +12,12 @@ const Podcast = forwardRef<SVGSVGElement, PodcastProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <circle cx="12" cy="11" r="1"/><path d="M11 14v4a2 2 0 0 0 4 0v-6"/><path d="M16 10a4 4 0 0 0-8 0"/><path d="M18 8A6 6 0 0 0 6 8"/><path d="M20 6A8 8 0 0 0 4 6"/>
+      <circle cx="12" cy="11" r="3"/><path d="M7.5 7.5a6.5 6.5 0 0 1 9 0"/><path d="M5 5a10 10 0 0 1 14 0"/><path d="M12 14v7"/><path d="M9 18h6"/>
     </svg>
   )
 )

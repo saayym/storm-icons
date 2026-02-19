@@ -12,12 +12,12 @@ const Diamond = forwardRef<SVGSVGElement, DiamondProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="4.93" y="4.93" rx="1" transform="rotate(45 12 12)"/>
+      <path d="m12 2 10 10-10 10L2 12z"/>
     </svg>
   )
 )

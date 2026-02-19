@@ -12,12 +12,12 @@ const Ticket = forwardRef<SVGSVGElement, TicketProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="2" y="7" fill="currentColor" fillOpacity=".15" stroke="none" rx="2"/><path d="M2 9a2 2 0 0 0 2 2 2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2 2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/><path d="M9 5v14"/>
+      <path d="M3 7v4a2 2 0 0 0 0 4v4h18v-4a2 2 0 0 0 0-4V7z"/><path d="M9 7v10"/>
     </svg>
   )
 )

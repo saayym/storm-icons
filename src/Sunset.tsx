@@ -12,12 +12,12 @@ const Sunset = forwardRef<SVGSVGElement, SunsetProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <circle cx="12" cy="12" r="4" fill="currentColor" fillOpacity=".15" stroke="none"/><path d="M12 10V6m-7.07 4.93 1.41-1.41M2 18h2m16 0h2m-2.93-7.07-1.41-1.41"/><path d="M3 22h18"/><path d="m16 6-4 4-4-4"/>
+      <path d="M3 17h1m16 0h1M5.6 10.6l.7.7m12.1-.7-.7.7M8 17a4 4 0 0 1 8 0"/><path d="M3 21h18"/><path d="M12 3v6l3-3M9 6l3 3"/>
     </svg>
   )
 )

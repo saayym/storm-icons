@@ -12,12 +12,12 @@ const Eraser = forwardRef<SVGSVGElement, EraserProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M7 21h10"/><path d="M5.5 13.5 17 2l5 5-11.5 11.5a2 2 0 0 1-1.41.59H6.17a2 2 0 0 1-1.41-.59L3 17z"/>
+      <path d="M19 20H8.5l-4.21-4.3a1 1 0 0 1 0-1.41l10-10a1 1 0 0 1 1.41 0l5 5a1 1 0 0 1 0 1.41L11.5 20"/><path d="M18 13.3 11.7 7"/>
     </svg>
   )
 )

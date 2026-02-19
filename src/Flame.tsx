@@ -12,12 +12,12 @@ const Flame = forwardRef<SVGSVGElement, FlameProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14 0-5.5 2-7.5C13 3 14 4.74 14 7c2-1 4 1.21 4 5.5a6 6 0 1 1-12 0c0-1 .5-1.5 1-2.29z"/><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14 0-5.5 2-7.5C13 3 14 4.74 14 7c2-1 4 1.21 4 5.5a6 6 0 1 1-12 0c0-1 .5-1.5 1-2.29z"/>
+      <path d="M12 10.941c2.333-3.308.167-7.823-1-8.941 0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294 5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588-2.084 3.353-3.257 3.353-4.667 2.235"/>
     </svg>
   )
 )

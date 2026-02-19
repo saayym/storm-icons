@@ -12,12 +12,12 @@ const Anchor = forwardRef<SVGSVGElement, AnchorProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <circle cx="12" cy="5" r="3" fill="currentColor" fillOpacity=".15" stroke="none"/><circle cx="12" cy="5" r="3"/><path d="M12 8v14"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/>
+      <path d="M12 9v12m-8-8a8 8 0 0 0 16 0m1 0h-2M5 13H3"/><path d="M9 6a3 3 0 1 0 6 0 3 3 0 1 0-6 0"/>
     </svg>
   )
 )

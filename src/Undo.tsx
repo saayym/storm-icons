@@ -17,7 +17,7 @@ const Undo = forwardRef<SVGSVGElement, UndoProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
+      <path d="m9 14-4-4 4-4"/><path d="M5 10h11a4 4 0 1 1 0 8h-1"/>
     </svg>
   )
 )

@@ -17,7 +17,7 @@ const Wallet = forwardRef<SVGSVGElement, WalletProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <rect width="22" height="16" x="1" y="6" rx="2" ry="2"/><path d="M1 10h22"/><path d="m1 6 2.5-4h17L23 6"/>
+      <rect width="20" height="14" x="2" y="6" rx="1"/><path d="M2 6V5a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1v1"/><rect width="5" height="4" x="15" y="11" rx="1"/><circle cx="17.5" cy="13" r=".5"/>
     </svg>
   )
 )

@@ -17,7 +17,7 @@ const EyeOff = forwardRef<SVGSVGElement, EyeOffProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M3 12s3.5-7 9-7 9 7 9 7-3.5 7-9 7-9-7-9-7Z"/><circle cx="12" cy="12" r="3"/><path d="m4 4 16 16"/>
+      <path d="M3 12s3.5-7 9-7 9 7 9 7-3.5 7-9 7-9-7-9-7"/><circle cx="12" cy="12" r="3"/><path d="m4 4 16 16"/>
     </svg>
   )
 )

@@ -12,12 +12,12 @@ const CloudOff = forwardRef<SVGSVGElement, CloudOffProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m2 2 20 20"/><path d="M5.47 5.47A7 7 0 0 0 4 14.899 7 7 0 0 0 9 20h8.5"/><path d="M13 4a7 7 0 0 1 2.71 4h1.79a4.5 4.5 0 0 1 3.5 7.327"/>
+      <path d="M9.58 5.548q.361-.166.752-.286c1.88-.572 3.956-.193 5.444 1 1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486 0 .957-.383 1.824-1.003 2.454M18 18.004H6.657C4.085 18 2 15.993 2 13.517s2.085-4.482 4.657-4.482c.13-.582.37-1.128.7-1.62"/><path d="m3 3 18 18"/>
     </svg>
   )
 )

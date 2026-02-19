@@ -12,12 +12,12 @@ const Bug = forwardRef<SVGSVGElement, BugProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="8" y="6" rx="4"/><path d="M3 14h2c1 0 2-.5 2-2q0 0 0 0"/><path d="M21 14h-2c-1 0-2-.5-2-2"/><path d="M3 10h3m15 0h-3"/><path d="M3 18h3m15 0h-3"/><path d="m9 2 1 4m5-4-1 4"/>
+      <rect width="8" height="14" x="8" y="6" rx="4"/><path d="M12 6V2"/><path d="M9 3h6"/><path d="M5 10h3"/><path d="M16 10h3"/><path d="M5 16h3"/><path d="M16 16h3"/><path d="M12 10v10"/>
     </svg>
   )
 )

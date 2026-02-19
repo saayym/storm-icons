@@ -12,12 +12,12 @@ const Plug = forwardRef<SVGSVGElement, PlugProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M12 22v-5"/><path d="M9 8V2m6 6V2"/><path d="M18 8v2a6 6 0 0 1-12 0V8z"/><path d="M6 8h12"/>
+      <path d="M9.785 6 18 14.215l-2.054 2.054a5.81 5.81 0 1 1-8.215-8.215z"/><path d="m4 20 3.5-3.5"/><path d="m15 4-3.5 3.5"/><path d="m20 9-3.5 3.5"/>
     </svg>
   )
 )

@@ -17,7 +17,7 @@ const CloudUpload = forwardRef<SVGSVGElement, CloudUploadProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="m16 16-4-4-4 4"/><path d="M12 12v9"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/>
+      <path d="M7 18a4.6 4.4 0 0 1 0-9 5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1"/><path d="m9 15 3-3 3 3"/><path d="M12 12v9"/>
     </svg>
   )
 )

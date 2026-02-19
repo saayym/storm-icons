@@ -17,7 +17,7 @@ const Award = forwardRef<SVGSVGElement, AwardProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <circle cx="12" cy="8" r="7"/><path d="M8.21 13.89 7 23l5-3 5 3-1.21-9.12"/>
+      <path d="M6 9a6 6 0 1 0 12 0A6 6 0 1 0 6 9"/><path d="m12 15 3.4 5.89 1.598-3.233 3.598.232-3.4-5.889"/><path d="m6.802 12-3.4 5.89L7 17.657l1.598 3.232 3.4-5.889"/>
     </svg>
   )
 )

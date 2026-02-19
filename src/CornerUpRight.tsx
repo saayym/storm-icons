@@ -17,7 +17,7 @@ const CornerUpRight = forwardRef<SVGSVGElement, CornerUpRightProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="m15 4 5 5-5 5"/><path d="M4 20V9h16"/>
+      <path d="M6 18v-6a3 3 0 0 1 3-3h10l-4-4m0 8 4-4"/>
     </svg>
   )
 )

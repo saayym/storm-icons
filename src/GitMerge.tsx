@@ -12,12 +12,12 @@ const GitMerge = forwardRef<SVGSVGElement, GitMergeProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/>
+      <path d="M5 18a2 2 0 1 0 4 0 2 2 0 1 0-4 0"/><path d="M5 6a2 2 0 1 0 4 0 2 2 0 1 0-4 0"/><path d="M15 12a2 2 0 1 0 4 0 2 2 0 1 0-4 0"/><path d="M7 8v8"/><path d="M7 8a4 4 0 0 0 4 4h4"/>
     </svg>
   )
 )

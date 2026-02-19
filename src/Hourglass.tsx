@@ -12,12 +12,12 @@ const Hourglass = forwardRef<SVGSVGElement, HourglassProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="M6.5 2h11v4L12 10 6.5 6zm0 20h11v-4L12 14l-5.5 4z"/><path d="M6.5 2h11v4L12 10 6.5 6z"/><path d="M6.5 22h11v-4L12 14l-5.5 4z"/>
+      <path d="M5 2h14"/><path d="M5 22h14"/><path d="M7 2v4l5 6-5 6v4"/><path d="M17 2v4l-5 6 5 6v4"/>
     </svg>
   )
 )

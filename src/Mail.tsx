@@ -17,7 +17,7 @@ const Mail = forwardRef<SVGSVGElement, MailProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M3 4h18v16H3z"/><path d="m3 4 9 9 9-9"/>
+      <path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="m3 7 9 6 9-6"/>
     </svg>
   )
 )

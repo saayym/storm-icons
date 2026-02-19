@@ -12,12 +12,12 @@ const Repeat = forwardRef<SVGSVGElement, RepeatProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="m17 1 4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="m7 23-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+      <path d="M4 12V9a3 3 0 0 1 3-3h13m-3-3 3 3-3 3"/><path d="M20 12v3a3 3 0 0 1-3 3H4m3 3-3-3 3-3"/>
     </svg>
   )
 )

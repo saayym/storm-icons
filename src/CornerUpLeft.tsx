@@ -12,12 +12,12 @@ const CornerUpLeft = forwardRef<SVGSVGElement, CornerUpLeftProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M9 14 4 9l5-5"/><path d="M20 20v-7a4 4 0 0 0-4-4H4"/>
+      <path d="M18 18v-6a3 3 0 0 0-3-3H5l4-4m0 8L5 9"/>
     </svg>
   )
 )

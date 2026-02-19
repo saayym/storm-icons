@@ -17,7 +17,7 @@ const Redo = forwardRef<SVGSVGElement, RedoProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M23 4v6h-6"/><path d="M20.49 15a9 9 0 1 1-2.13-9.36L23 10"/>
+      <path d="m15 14 4-4-4-4"/><path d="M19 10H8a4 4 0 1 0 0 8h1"/>
     </svg>
   )
 )

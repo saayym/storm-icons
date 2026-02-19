@@ -17,7 +17,7 @@ const Image = forwardRef<SVGSVGElement, ImageProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M3 3h18v18H3z"/><circle cx="8" cy="8" r="1.5"/><path d="m21 15-5-5L5 21"/>
+      <path d="M15 8h.01"/><path d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3z"/><path d="m3 16 5-5c.928-.893 2.072-.893 3 0l5 5"/><path d="m14 14 1-1c.928-.893 2.072-.893 3 0l3 3"/>
     </svg>
   )
 )

@@ -12,12 +12,12 @@ const AreaChart = forwardRef<SVGSVGElement, AreaChartProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M3 3v18h18"/><path fill="currentColor" fillOpacity=".15" stroke="none" d="m7 14 3.5-3.5L13 13l5-5v6z"/><path d="m7 14 3.5-3.5L13 13l5-5v6z"/>
+      <path d="M3 3v18"/><path d="M3 21h18"/><path d="M6 21v-6l4-6 4 4 7-9v17"/>
     </svg>
   )
 )

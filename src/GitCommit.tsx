@@ -12,12 +12,12 @@ const GitCommit = forwardRef<SVGSVGElement, GitCommitProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <circle cx="12" cy="12" r="4"/><path d="M1.05 12H7"/><path d="M17.01 12h5.95"/>
+      <circle cx="12" cy="12" r="4"/><path d="M2 12h6"/><path d="M16 12h6"/>
     </svg>
   )
 )

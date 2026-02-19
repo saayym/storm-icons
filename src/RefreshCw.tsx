@@ -17,7 +17,7 @@ const RefreshCw = forwardRef<SVGSVGElement, RefreshCwProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M21 4v5h-5"/><path d="M3 20v-5h5"/><path d="M21 9A9 9 0 0 0 6.3 5.3L3 8"/><path d="M3 15a9 9 0 0 0 14.7 3.7L21 16"/>
+      <path d="M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4"/><path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"/>
     </svg>
   )
 )

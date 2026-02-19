@@ -17,7 +17,7 @@ const ExternalLink = forwardRef<SVGSVGElement, ExternalLinkProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M18 13v6H5V6h6"/><path d="M15 4h5v5"/><path d="M20 4 10 14"/>
+      <path d="M12 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/><path d="m11 13 9-9"/><path d="M15 4h5v5"/>
     </svg>
   )
 )

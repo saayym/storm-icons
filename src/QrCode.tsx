@@ -12,12 +12,12 @@ const QrCode = forwardRef<SVGSVGElement, QrCodeProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <rect x="2" y="2" rx="1"/><rect x="14" y="2" rx="1"/><rect x="2" y="14" rx="1"/><path d="M14 14h4v4h-4z"/><path d="M22 14h-4v4h4v4h-8v-4"/>
+      <path d="M3 3h7v7H3z"/><path d="M14 3h7v7h-7z"/><path d="M3 14h7v7H3z"/><path d="M14 14h3v3h-3z"/><path d="M21 14v3"/><path d="M18 21h3"/><path d="M5 5h3v3H5z"/><path d="M16 5h3v3h-3z"/><path d="M5 16h3v3H5z"/>
     </svg>
   )
 )

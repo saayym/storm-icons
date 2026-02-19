@@ -17,7 +17,7 @@ const Move = forwardRef<SVGSVGElement, MoveProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M12 2v20"/><path d="m15 19-3 3-3-3"/><path d="m9 5 3-3 3 3"/><path d="M2 12h20"/><path d="m5 9-3 3 3 3"/><path d="m19 9 3 3-3 3"/>
+      <path d="m18 9 3 3-3 3"/><path d="M15 12h6"/><path d="m6 9-3 3 3 3"/><path d="M3 12h6"/><path d="m9 18 3 3 3-3"/><path d="M12 15v6"/><path d="m15 6-3-3-3 3"/><path d="M12 3v6"/>
     </svg>
   )
 )

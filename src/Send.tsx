@@ -17,7 +17,7 @@ const Send = forwardRef<SVGSVGElement, SendProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M22 2 11 13"/><path d="m22 2-7 20-4-9-9-4 20-7"/>
+      <path d="M10 14 21 3"/><path d="m21 3-6.5 18a.55.55 0 0 1-1 0L10 14l-7-3.5a.55.55 0 0 1 0-1z"/>
     </svg>
   )
 )

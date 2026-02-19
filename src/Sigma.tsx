@@ -12,12 +12,12 @@ const Sigma = forwardRef<SVGSVGElement, SigmaProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M18 6H6l6 6-6 6h12"/>
+      <path d="M18 4H6l6 8-6 8h12"/>
     </svg>
   )
 )

@@ -17,7 +17,7 @@ const LogOut = forwardRef<SVGSVGElement, LogOutProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M9 21H3V3h6"/><path d="M9 12h12"/><path d="m17 8 4 4-4 4"/>
+      <path d="M14 8V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2v-2"/><path d="M9 12h12l-3-3"/><path d="m18 15 3-3"/>
     </svg>
   )
 )

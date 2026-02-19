@@ -17,7 +17,7 @@ const CornerDownLeft = forwardRef<SVGSVGElement, CornerDownLeftProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="m9 10-5 5 5 5"/><path d="M20 4v7a4 4 0 0 1-4 4H4"/>
+      <path d="M18 6v6a3 3 0 0 1-3 3H5l4-4m0 8-4-4"/>
     </svg>
   )
 )

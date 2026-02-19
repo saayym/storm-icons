@@ -1,8 +1,8 @@
-export type IconName = 'arrow-up' | 'arrow-down' | 'arrow-left' | 'arrow-right' | 'chevron-up' | 'chevron-down' | 'chevron-left' | 'chevron-right' | 'chevrons-up' | 'chevrons-down' | 'corner-up-right' | 'external-link' | 'home' | 'move' | 'navigation' | 'arrow-up-right' | 'arrow-down-left' | 'arrow-up-left' | 'arrow-down-right' | 'chevrons-left' | 'chevrons-right' | 'corner-down-left' | 'corner-down-right' | 'compass' | 'search' | 'plus' | 'minus' | 'x' | 'check' | 'edit' | 'trash' | 'copy' | 'clipboard' | 'download' | 'upload' | 'share' | 'refresh-cw' | 'rotate-cw' | 'save' | 'send' | 'log-in' | 'log-out' | 'power' | 'zap' | 'scissors' | 'undo' | 'redo' | 'sort-asc' | 'sort-desc' | 'scan' | 'pin' | 'thumbs-up' | 'menu' | 'grid' | 'list' | 'columns' | 'sidebar' | 'layers' | 'sliders' | 'filter' | 'settings' | 'more-horizontal' | 'more-vertical' | 'eye' | 'eye-off' | 'maximize-2' | 'minimize-2' | 'align-left' | 'align-center' | 'align-right' | 'align-justify' | 'bold' | 'italic' | 'underline' | 'type' | 'layout' | 'panel-left' | 'file' | 'file-text' | 'folder' | 'folder-open' | 'image' | 'code' | 'terminal' | 'archive' | 'database' | 'hard-drive' | 'file-plus' | 'file-minus' | 'folder-plus' | 'file-code' | 'file-image' | 'cloud-upload' | 'mail' | 'message-square' | 'phone' | 'bell' | 'at-sign' | 'inbox' | 'paperclip' | 'link' | 'message-circle' | 'phone-call' | 'phone-off' | 'video' | 'rss' | 'play' | 'pause' | 'stop-circle' | 'skip-forward' | 'skip-back' | 'volume' | 'volume-1' | 'volume-2' | 'volume-x' | 'mic' | 'camera' | 'film' | 'radio' | 'headphones' | 'music' | 'airplay' | 'circle' | 'square' | 'triangle' | 'star' | 'heart' | 'flag' | 'bookmark' | 'hash' | 'help-circle' | 'alert-circle' | 'check-circle' | 'x-circle' | 'plus-circle' | 'minus-circle' | 'thumbs-down' | 'award' | 'sparkle' | 'infinity' | 'user' | 'users' | 'user-plus' | 'user-minus' | 'user-check' | 'user-x' | 'github' | 'twitter' | 'globe' | 'shopping-cart' | 'shopping-bag' | 'credit-card' | 'dollar-sign' | 'tag' | 'percent' | 'receipt' | 'gift' | 'truck' | 'package' | 'wallet' | 'lock' | 'unlock' | 'shield' | 'key' | 'alert-triangle' | 'shield-check' | 'shield-x' | 'fingerprint' | 'clock' | 'calendar' | 'map-pin' | 'sun' | 'moon' | 'cloud' | 'wifi' | 'battery' | 'battery-low' | 'battery-medium' | 'battery-high' | 'battery-full' | 'loader' | 'info' | 'monitor' | 'smartphone' | 'tablet' | 'laptop' | 'printer' | 'cpu' | 'server' | 'bluetooth' | 'cast' | 'bar-chart' | 'pie-chart' | 'trending-up' | 'trending-down' | 'activity' | 'map' | 'thermometer' | 'droplet' | 'feather'
+export type IconName = 'arrow-up' | 'arrow-down' | 'arrow-left' | 'arrow-right' | 'chevron-up' | 'chevron-down' | 'chevron-left' | 'chevron-right' | 'chevrons-up' | 'chevrons-down' | 'corner-up-right' | 'external-link' | 'home' | 'move' | 'navigation' | 'arrow-up-right' | 'arrow-down-left' | 'arrow-up-left' | 'arrow-down-right' | 'chevrons-left' | 'chevrons-right' | 'corner-down-left' | 'corner-down-right' | 'compass' | 'search' | 'plus' | 'minus' | 'x' | 'check' | 'edit' | 'trash' | 'copy' | 'clipboard' | 'download' | 'upload' | 'share' | 'refresh-cw' | 'rotate-cw' | 'save' | 'send' | 'log-in' | 'log-out' | 'power' | 'zap' | 'scissors' | 'undo' | 'redo' | 'sort-asc' | 'sort-desc' | 'scan' | 'pin' | 'thumbs-up' | 'menu' | 'grid' | 'list' | 'columns' | 'sidebar' | 'layers' | 'sliders' | 'filter' | 'settings' | 'more-horizontal' | 'more-vertical' | 'eye' | 'eye-off' | 'maximize-2' | 'minimize-2' | 'align-left' | 'align-center' | 'align-right' | 'align-justify' | 'bold' | 'italic' | 'underline' | 'type' | 'layout' | 'panel-left' | 'file' | 'file-text' | 'folder' | 'folder-open' | 'image' | 'code' | 'terminal' | 'archive' | 'database' | 'hard-drive' | 'file-plus' | 'file-minus' | 'folder-plus' | 'file-code' | 'file-image' | 'cloud-upload' | 'mail' | 'message-square' | 'phone' | 'bell' | 'at-sign' | 'inbox' | 'paperclip' | 'link' | 'message-circle' | 'phone-call' | 'phone-off' | 'video' | 'rss' | 'play' | 'pause' | 'stop-circle' | 'skip-forward' | 'skip-back' | 'volume' | 'volume-1' | 'volume-2' | 'volume-x' | 'mic' | 'camera' | 'film' | 'radio' | 'headphones' | 'music' | 'airplay' | 'circle' | 'square' | 'triangle' | 'star' | 'heart' | 'flag' | 'bookmark' | 'hash' | 'help-circle' | 'alert-circle' | 'check-circle' | 'x-circle' | 'plus-circle' | 'minus-circle' | 'thumbs-down' | 'award' | 'sparkle' | 'infinity' | 'user' | 'users' | 'user-plus' | 'user-minus' | 'user-check' | 'user-x' | 'github' | 'x-social' | 'globe' | 'facebook' | 'instagram' | 'linkedin' | 'youtube' | 'tiktok' | 'twitch' | 'discord' | 'snapchat' | 'pinterest' | 'reddit' | 'telegram' | 'whatsapp' | 'spotify' | 'slack' | 'dribbble' | 'figma' | 'threads' | 'bluesky' | 'mastodon' | 'signal' | 'behance' | 'shopping-cart' | 'shopping-bag' | 'credit-card' | 'dollar-sign' | 'tag' | 'percent' | 'receipt' | 'gift' | 'truck' | 'package' | 'wallet' | 'lock' | 'unlock' | 'shield' | 'key' | 'alert-triangle' | 'shield-check' | 'shield-x' | 'fingerprint' | 'clock' | 'calendar' | 'map-pin' | 'sun' | 'moon' | 'cloud' | 'wifi' | 'battery' | 'battery-low' | 'battery-medium' | 'battery-high' | 'battery-full' | 'loader' | 'info' | 'monitor' | 'smartphone' | 'tablet' | 'laptop' | 'printer' | 'cpu' | 'server' | 'bluetooth' | 'cast' | 'bar-chart' | 'pie-chart' | 'trending-up' | 'trending-down' | 'activity' | 'map' | 'thermometer' | 'droplet' | 'feather' | 'git-branch' | 'git-merge' | 'git-commit' | 'git-pull-request' | 'bug' | 'code-2' | 'binary' | 'braces' | 'regex' | 'variable' | 'webhook' | 'api' | 'component' | 'container' | 'cloud-rain' | 'cloud-snow' | 'cloud-lightning' | 'cloud-off' | 'wind' | 'sunrise' | 'sunset' | 'umbrella' | 'leaf' | 'tree' | 'line-chart' | 'area-chart' | 'scatter-chart' | 'gauge' | 'table' | 'kanban' | 'chart-bar-horizontal' | 'funnel' | 'sigma' | 'calculator' | 'corner-up-left' | 'repeat' | 'shuffle' | 'maximize' | 'minimize' | 'crosshair' | 'archive-restore' | 'eraser' | 'replace' | 'merge' | 'split' | 'grab' | 'wand' | 'shrink' | 'panel-right' | 'panel-top' | 'panel-bottom' | 'rows' | 'grip-vertical' | 'grip-horizontal' | 'separator-horizontal' | 'separator-vertical' | 'toggle-left' | 'toggle-right' | 'file-json' | 'file-spreadsheet' | 'file-archive' | 'file-check' | 'file-warning' | 'folder-lock' | 'mail-open' | 'message-circle-plus' | 'megaphone' | 'bell-off' | 'bell-ring' | 'voicemail' | 'image-plus' | 'video-off' | 'mic-off' | 'podcast' | 'hexagon' | 'octagon' | 'diamond' | 'flame' | 'crown' | 'badge' | 'user-cog' | 'users-plus' | 'contact' | 'hand-wave' | 'banknote' | 'coins' | 'store' | 'barcode' | 'qr-code' | 'ticket' | 'eye-scan' | 'lock-open' | 'shield-alert' | 'key-round' | 'palette' | 'lightbulb' | 'plug' | 'rocket' | 'hourglass' | 'anchor' | 'clock-pause' | 'clock-check' | 'clock-plus' | 'eraser-off' | 'wand-off'
 
-export type IconCategory = 'Arrows & Navigation' | 'Actions' | 'Layout & UI' | 'Files & Folders' | 'Communication' | 'Media' | 'Shapes & Symbols' | 'Users & Social' | 'Commerce' | 'Security' | 'Misc'
+export type IconCategory = 'Arrows & Navigation' | 'Actions' | 'Layout & UI' | 'Files & Folders' | 'Communication' | 'Media' | 'Shapes & Symbols' | 'Users & Social' | 'Commerce' | 'Security' | 'Development' | 'Weather & Nature' | 'Charts & Data' | 'Misc'
 
-export const iconCategories: IconCategory[] = ["Arrows & Navigation","Actions","Layout & UI","Files & Folders","Communication","Media","Shapes & Symbols","Users & Social","Commerce","Security","Misc"]
+export const iconCategories: IconCategory[] = ["Arrows & Navigation","Actions","Layout & UI","Files & Folders","Communication","Media","Shapes & Symbols","Users & Social","Commerce","Security","Development","Weather & Nature","Charts & Data","Misc"]
 
 export const iconMetadata: Record<IconName, { category: IconCategory; tags: string[] }> = {
   "arrow-up": {
@@ -654,7 +654,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "code": {
-    "category": "Files & Folders",
+    "category": "Development",
     "tags": [
       "programming",
       "brackets",
@@ -662,7 +662,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "terminal": {
-    "category": "Files & Folders",
+    "category": "Development",
     "tags": [
       "console",
       "cli",
@@ -831,7 +831,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "video": {
-    "category": "Communication",
+    "category": "Media",
     "tags": [
       "camera",
       "record",
@@ -1086,7 +1086,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "thumbs-down": {
-    "category": "Shapes & Symbols",
+    "category": "Actions",
     "tags": [
       "dislike",
       "reject",
@@ -1174,12 +1174,13 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
       "git"
     ]
   },
-  "twitter": {
+  "x-social": {
     "category": "Users & Social",
     "tags": [
       "social",
-      "tweet",
-      "x"
+      "x",
+      "twitter",
+      "network"
     ]
   },
   "globe": {
@@ -1188,6 +1189,195 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
       "world",
       "web",
       "international"
+    ]
+  },
+  "facebook": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "meta",
+      "network",
+      "fb"
+    ]
+  },
+  "instagram": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "photos",
+      "meta",
+      "stories"
+    ]
+  },
+  "linkedin": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "professional",
+      "network",
+      "jobs"
+    ]
+  },
+  "youtube": {
+    "category": "Users & Social",
+    "tags": [
+      "video",
+      "streaming",
+      "google",
+      "channel"
+    ]
+  },
+  "tiktok": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "video",
+      "short",
+      "viral"
+    ]
+  },
+  "twitch": {
+    "category": "Users & Social",
+    "tags": [
+      "streaming",
+      "gaming",
+      "live",
+      "video"
+    ]
+  },
+  "discord": {
+    "category": "Users & Social",
+    "tags": [
+      "chat",
+      "community",
+      "gaming",
+      "voice"
+    ]
+  },
+  "snapchat": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "stories",
+      "photo",
+      "snap"
+    ]
+  },
+  "pinterest": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "pins",
+      "boards",
+      "inspiration"
+    ]
+  },
+  "reddit": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "forum",
+      "community",
+      "discussion"
+    ]
+  },
+  "telegram": {
+    "category": "Users & Social",
+    "tags": [
+      "messaging",
+      "chat",
+      "channel",
+      "group"
+    ]
+  },
+  "whatsapp": {
+    "category": "Users & Social",
+    "tags": [
+      "messaging",
+      "chat",
+      "meta",
+      "phone"
+    ]
+  },
+  "spotify": {
+    "category": "Users & Social",
+    "tags": [
+      "music",
+      "streaming",
+      "audio",
+      "playlist"
+    ]
+  },
+  "slack": {
+    "category": "Users & Social",
+    "tags": [
+      "messaging",
+      "workspace",
+      "team",
+      "channels"
+    ]
+  },
+  "dribbble": {
+    "category": "Users & Social",
+    "tags": [
+      "design",
+      "portfolio",
+      "creative",
+      "showcase"
+    ]
+  },
+  "figma": {
+    "category": "Users & Social",
+    "tags": [
+      "design",
+      "tool",
+      "ui",
+      "collaborative"
+    ]
+  },
+  "threads": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "meta",
+      "text",
+      "microblog"
+    ]
+  },
+  "bluesky": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "decentralized",
+      "microblog",
+      "feed"
+    ]
+  },
+  "mastodon": {
+    "category": "Users & Social",
+    "tags": [
+      "social",
+      "fediverse",
+      "decentralized",
+      "open"
+    ]
+  },
+  "signal": {
+    "category": "Users & Social",
+    "tags": [
+      "messaging",
+      "encrypted",
+      "private",
+      "secure"
+    ]
+  },
+  "behance": {
+    "category": "Users & Social",
+    "tags": [
+      "design",
+      "portfolio",
+      "adobe",
+      "creative"
     ]
   },
   "shopping-cart": {
@@ -1371,7 +1561,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "sun": {
-    "category": "Misc",
+    "category": "Weather & Nature",
     "tags": [
       "light",
       "day",
@@ -1380,7 +1570,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "moon": {
-    "category": "Misc",
+    "category": "Weather & Nature",
     "tags": [
       "night",
       "dark",
@@ -1389,7 +1579,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "cloud": {
-    "category": "Misc",
+    "category": "Weather & Nature",
     "tags": [
       "hosting",
       "storage",
@@ -1462,7 +1652,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "info": {
-    "category": "Misc",
+    "category": "Shapes & Symbols",
     "tags": [
       "information",
       "help",
@@ -1542,7 +1732,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "bar-chart": {
-    "category": "Misc",
+    "category": "Charts & Data",
     "tags": [
       "graph",
       "stats",
@@ -1550,7 +1740,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "pie-chart": {
-    "category": "Misc",
+    "category": "Charts & Data",
     "tags": [
       "graph",
       "stats",
@@ -1558,7 +1748,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "trending-up": {
-    "category": "Misc",
+    "category": "Charts & Data",
     "tags": [
       "growth",
       "increase",
@@ -1566,7 +1756,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "trending-down": {
-    "category": "Misc",
+    "category": "Charts & Data",
     "tags": [
       "decline",
       "decrease",
@@ -1574,7 +1764,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "activity": {
-    "category": "Misc",
+    "category": "Charts & Data",
     "tags": [
       "pulse",
       "health",
@@ -1590,7 +1780,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "thermometer": {
-    "category": "Misc",
+    "category": "Weather & Nature",
     "tags": [
       "temperature",
       "weather",
@@ -1598,7 +1788,7 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
     ]
   },
   "droplet": {
-    "category": "Misc",
+    "category": "Weather & Nature",
     "tags": [
       "water",
       "rain",
@@ -1611,6 +1801,945 @@ export const iconMetadata: Record<IconName, { category: IconCategory; tags: stri
       "light",
       "quill",
       "write"
+    ]
+  },
+  "git-branch": {
+    "category": "Development",
+    "tags": [
+      "version-control",
+      "branch",
+      "git",
+      "vcs"
+    ]
+  },
+  "git-merge": {
+    "category": "Development",
+    "tags": [
+      "version-control",
+      "merge",
+      "git",
+      "combine"
+    ]
+  },
+  "git-commit": {
+    "category": "Development",
+    "tags": [
+      "version-control",
+      "commit",
+      "git",
+      "save"
+    ]
+  },
+  "git-pull-request": {
+    "category": "Development",
+    "tags": [
+      "version-control",
+      "pr",
+      "review",
+      "git"
+    ]
+  },
+  "bug": {
+    "category": "Development",
+    "tags": [
+      "issue",
+      "error",
+      "debug",
+      "insect"
+    ]
+  },
+  "code-2": {
+    "category": "Development",
+    "tags": [
+      "programming",
+      "brackets",
+      "html",
+      "dev"
+    ]
+  },
+  "binary": {
+    "category": "Development",
+    "tags": [
+      "code",
+      "data",
+      "zero",
+      "one"
+    ]
+  },
+  "braces": {
+    "category": "Development",
+    "tags": [
+      "code",
+      "curly",
+      "json",
+      "object"
+    ]
+  },
+  "regex": {
+    "category": "Development",
+    "tags": [
+      "pattern",
+      "expression",
+      "search",
+      "match"
+    ]
+  },
+  "variable": {
+    "category": "Development",
+    "tags": [
+      "code",
+      "symbol",
+      "math",
+      "algebra"
+    ]
+  },
+  "webhook": {
+    "category": "Development",
+    "tags": [
+      "hook",
+      "callback",
+      "event",
+      "api"
+    ]
+  },
+  "api": {
+    "category": "Development",
+    "tags": [
+      "interface",
+      "connect",
+      "endpoint",
+      "integration"
+    ]
+  },
+  "component": {
+    "category": "Development",
+    "tags": [
+      "module",
+      "puzzle",
+      "block",
+      "ui"
+    ]
+  },
+  "container": {
+    "category": "Development",
+    "tags": [
+      "docker",
+      "shipping",
+      "deploy",
+      "box"
+    ]
+  },
+  "cloud-rain": {
+    "category": "Weather & Nature",
+    "tags": [
+      "weather",
+      "rain",
+      "precipitation",
+      "water"
+    ]
+  },
+  "cloud-snow": {
+    "category": "Weather & Nature",
+    "tags": [
+      "weather",
+      "snow",
+      "winter",
+      "cold"
+    ]
+  },
+  "cloud-lightning": {
+    "category": "Weather & Nature",
+    "tags": [
+      "weather",
+      "storm",
+      "thunder",
+      "electric"
+    ]
+  },
+  "cloud-off": {
+    "category": "Weather & Nature",
+    "tags": [
+      "offline",
+      "disconnected",
+      "no-cloud"
+    ]
+  },
+  "wind": {
+    "category": "Weather & Nature",
+    "tags": [
+      "weather",
+      "breeze",
+      "air",
+      "blow"
+    ]
+  },
+  "sunrise": {
+    "category": "Weather & Nature",
+    "tags": [
+      "morning",
+      "dawn",
+      "sun",
+      "day"
+    ]
+  },
+  "sunset": {
+    "category": "Weather & Nature",
+    "tags": [
+      "evening",
+      "dusk",
+      "sun",
+      "night"
+    ]
+  },
+  "umbrella": {
+    "category": "Weather & Nature",
+    "tags": [
+      "rain",
+      "protection",
+      "weather",
+      "cover"
+    ]
+  },
+  "leaf": {
+    "category": "Weather & Nature",
+    "tags": [
+      "nature",
+      "plant",
+      "eco",
+      "green"
+    ]
+  },
+  "tree": {
+    "category": "Weather & Nature",
+    "tags": [
+      "nature",
+      "forest",
+      "plant",
+      "wood"
+    ]
+  },
+  "line-chart": {
+    "category": "Charts & Data",
+    "tags": [
+      "graph",
+      "trend",
+      "analytics",
+      "line"
+    ]
+  },
+  "area-chart": {
+    "category": "Charts & Data",
+    "tags": [
+      "graph",
+      "area",
+      "analytics",
+      "filled"
+    ]
+  },
+  "scatter-chart": {
+    "category": "Charts & Data",
+    "tags": [
+      "graph",
+      "points",
+      "analytics",
+      "distribution"
+    ]
+  },
+  "gauge": {
+    "category": "Charts & Data",
+    "tags": [
+      "meter",
+      "speed",
+      "dial",
+      "performance"
+    ]
+  },
+  "table": {
+    "category": "Charts & Data",
+    "tags": [
+      "grid",
+      "data",
+      "spreadsheet",
+      "rows"
+    ]
+  },
+  "kanban": {
+    "category": "Charts & Data",
+    "tags": [
+      "board",
+      "columns",
+      "agile",
+      "tasks"
+    ]
+  },
+  "chart-bar-horizontal": {
+    "category": "Charts & Data",
+    "tags": [
+      "graph",
+      "bars",
+      "analytics",
+      "horizontal"
+    ]
+  },
+  "funnel": {
+    "category": "Charts & Data",
+    "tags": [
+      "conversion",
+      "filter",
+      "pipeline",
+      "sales"
+    ]
+  },
+  "sigma": {
+    "category": "Charts & Data",
+    "tags": [
+      "sum",
+      "math",
+      "total",
+      "aggregate"
+    ]
+  },
+  "calculator": {
+    "category": "Charts & Data",
+    "tags": [
+      "math",
+      "compute",
+      "numbers",
+      "calculate"
+    ]
+  },
+  "corner-up-left": {
+    "category": "Arrows & Navigation",
+    "tags": [
+      "turn",
+      "back",
+      "reply"
+    ]
+  },
+  "repeat": {
+    "category": "Arrows & Navigation",
+    "tags": [
+      "loop",
+      "cycle",
+      "again",
+      "replay"
+    ]
+  },
+  "shuffle": {
+    "category": "Arrows & Navigation",
+    "tags": [
+      "random",
+      "mix",
+      "reorder"
+    ]
+  },
+  "maximize": {
+    "category": "Arrows & Navigation",
+    "tags": [
+      "expand",
+      "fullscreen",
+      "grow"
+    ]
+  },
+  "minimize": {
+    "category": "Arrows & Navigation",
+    "tags": [
+      "shrink",
+      "collapse",
+      "reduce"
+    ]
+  },
+  "crosshair": {
+    "category": "Arrows & Navigation",
+    "tags": [
+      "target",
+      "aim",
+      "focus",
+      "center"
+    ]
+  },
+  "archive-restore": {
+    "category": "Actions",
+    "tags": [
+      "restore",
+      "unarchive",
+      "recover",
+      "box"
+    ]
+  },
+  "eraser": {
+    "category": "Actions",
+    "tags": [
+      "erase",
+      "clear",
+      "remove",
+      "rubber"
+    ]
+  },
+  "replace": {
+    "category": "Actions",
+    "tags": [
+      "swap",
+      "exchange",
+      "substitute"
+    ]
+  },
+  "merge": {
+    "category": "Actions",
+    "tags": [
+      "combine",
+      "join",
+      "unite",
+      "converge"
+    ]
+  },
+  "split": {
+    "category": "Actions",
+    "tags": [
+      "divide",
+      "separate",
+      "fork",
+      "branch"
+    ]
+  },
+  "grab": {
+    "category": "Actions",
+    "tags": [
+      "hand",
+      "cursor",
+      "drag",
+      "move"
+    ]
+  },
+  "wand": {
+    "category": "Actions",
+    "tags": [
+      "magic",
+      "auto",
+      "generate",
+      "sparkle"
+    ]
+  },
+  "shrink": {
+    "category": "Actions",
+    "tags": [
+      "compress",
+      "reduce",
+      "smaller",
+      "contract"
+    ]
+  },
+  "panel-right": {
+    "category": "Layout & UI",
+    "tags": [
+      "sidebar",
+      "split",
+      "pane",
+      "right"
+    ]
+  },
+  "panel-top": {
+    "category": "Layout & UI",
+    "tags": [
+      "header",
+      "split",
+      "pane",
+      "top"
+    ]
+  },
+  "panel-bottom": {
+    "category": "Layout & UI",
+    "tags": [
+      "footer",
+      "split",
+      "pane",
+      "bottom"
+    ]
+  },
+  "rows": {
+    "category": "Layout & UI",
+    "tags": [
+      "horizontal",
+      "lines",
+      "stack",
+      "layout"
+    ]
+  },
+  "grip-vertical": {
+    "category": "Layout & UI",
+    "tags": [
+      "drag",
+      "handle",
+      "reorder",
+      "dots"
+    ]
+  },
+  "grip-horizontal": {
+    "category": "Layout & UI",
+    "tags": [
+      "drag",
+      "handle",
+      "reorder",
+      "dots"
+    ]
+  },
+  "separator-horizontal": {
+    "category": "Layout & UI",
+    "tags": [
+      "divider",
+      "line",
+      "split",
+      "horizontal"
+    ]
+  },
+  "separator-vertical": {
+    "category": "Layout & UI",
+    "tags": [
+      "divider",
+      "line",
+      "split",
+      "vertical"
+    ]
+  },
+  "toggle-left": {
+    "category": "Layout & UI",
+    "tags": [
+      "switch",
+      "off",
+      "disable",
+      "control"
+    ]
+  },
+  "toggle-right": {
+    "category": "Layout & UI",
+    "tags": [
+      "switch",
+      "on",
+      "enable",
+      "control"
+    ]
+  },
+  "file-json": {
+    "category": "Files & Folders",
+    "tags": [
+      "json",
+      "config",
+      "data",
+      "braces"
+    ]
+  },
+  "file-spreadsheet": {
+    "category": "Files & Folders",
+    "tags": [
+      "excel",
+      "csv",
+      "data",
+      "table"
+    ]
+  },
+  "file-archive": {
+    "category": "Files & Folders",
+    "tags": [
+      "zip",
+      "compress",
+      "package",
+      "archive"
+    ]
+  },
+  "file-check": {
+    "category": "Files & Folders",
+    "tags": [
+      "verified",
+      "approved",
+      "valid",
+      "done"
+    ]
+  },
+  "file-warning": {
+    "category": "Files & Folders",
+    "tags": [
+      "alert",
+      "error",
+      "caution",
+      "problem"
+    ]
+  },
+  "folder-lock": {
+    "category": "Files & Folders",
+    "tags": [
+      "secure",
+      "private",
+      "protected",
+      "locked"
+    ]
+  },
+  "mail-open": {
+    "category": "Communication",
+    "tags": [
+      "email",
+      "read",
+      "envelope",
+      "open"
+    ]
+  },
+  "message-circle-plus": {
+    "category": "Communication",
+    "tags": [
+      "chat",
+      "new",
+      "add",
+      "compose"
+    ]
+  },
+  "megaphone": {
+    "category": "Communication",
+    "tags": [
+      "announce",
+      "broadcast",
+      "speaker",
+      "marketing"
+    ]
+  },
+  "bell-off": {
+    "category": "Communication",
+    "tags": [
+      "mute",
+      "silent",
+      "notification",
+      "disabled"
+    ]
+  },
+  "bell-ring": {
+    "category": "Communication",
+    "tags": [
+      "notification",
+      "alert",
+      "ring",
+      "active"
+    ]
+  },
+  "voicemail": {
+    "category": "Communication",
+    "tags": [
+      "message",
+      "audio",
+      "phone",
+      "record"
+    ]
+  },
+  "image-plus": {
+    "category": "Media",
+    "tags": [
+      "add",
+      "photo",
+      "upload",
+      "new"
+    ]
+  },
+  "video-off": {
+    "category": "Media",
+    "tags": [
+      "camera",
+      "disabled",
+      "no-video",
+      "mute"
+    ]
+  },
+  "mic-off": {
+    "category": "Media",
+    "tags": [
+      "microphone",
+      "muted",
+      "silent",
+      "disabled"
+    ]
+  },
+  "podcast": {
+    "category": "Media",
+    "tags": [
+      "audio",
+      "broadcast",
+      "mic",
+      "stream"
+    ]
+  },
+  "hexagon": {
+    "category": "Shapes & Symbols",
+    "tags": [
+      "shape",
+      "polygon",
+      "six",
+      "geometry"
+    ]
+  },
+  "octagon": {
+    "category": "Shapes & Symbols",
+    "tags": [
+      "shape",
+      "polygon",
+      "stop",
+      "eight"
+    ]
+  },
+  "diamond": {
+    "category": "Shapes & Symbols",
+    "tags": [
+      "shape",
+      "rhombus",
+      "gem",
+      "card"
+    ]
+  },
+  "flame": {
+    "category": "Shapes & Symbols",
+    "tags": [
+      "fire",
+      "hot",
+      "trending",
+      "popular"
+    ]
+  },
+  "crown": {
+    "category": "Shapes & Symbols",
+    "tags": [
+      "king",
+      "queen",
+      "royal",
+      "premium"
+    ]
+  },
+  "badge": {
+    "category": "Shapes & Symbols",
+    "tags": [
+      "medal",
+      "ribbon",
+      "achievement",
+      "reward"
+    ]
+  },
+  "user-cog": {
+    "category": "Users & Social",
+    "tags": [
+      "settings",
+      "preferences",
+      "admin",
+      "config"
+    ]
+  },
+  "users-plus": {
+    "category": "Users & Social",
+    "tags": [
+      "add-group",
+      "invite",
+      "team",
+      "join"
+    ]
+  },
+  "contact": {
+    "category": "Users & Social",
+    "tags": [
+      "card",
+      "address",
+      "person",
+      "info"
+    ]
+  },
+  "hand-wave": {
+    "category": "Users & Social",
+    "tags": [
+      "hello",
+      "greeting",
+      "wave",
+      "hi"
+    ]
+  },
+  "banknote": {
+    "category": "Commerce",
+    "tags": [
+      "money",
+      "cash",
+      "bill",
+      "currency"
+    ]
+  },
+  "coins": {
+    "category": "Commerce",
+    "tags": [
+      "money",
+      "change",
+      "currency",
+      "stack"
+    ]
+  },
+  "store": {
+    "category": "Commerce",
+    "tags": [
+      "shop",
+      "market",
+      "retail",
+      "storefront"
+    ]
+  },
+  "barcode": {
+    "category": "Commerce",
+    "tags": [
+      "scan",
+      "product",
+      "inventory",
+      "upc"
+    ]
+  },
+  "qr-code": {
+    "category": "Commerce",
+    "tags": [
+      "scan",
+      "code",
+      "link",
+      "mobile"
+    ]
+  },
+  "ticket": {
+    "category": "Commerce",
+    "tags": [
+      "pass",
+      "coupon",
+      "event",
+      "admission"
+    ]
+  },
+  "eye-scan": {
+    "category": "Security",
+    "tags": [
+      "biometric",
+      "iris",
+      "recognition",
+      "scan"
+    ]
+  },
+  "lock-open": {
+    "category": "Security",
+    "tags": [
+      "unlocked",
+      "open",
+      "access",
+      "unsecure"
+    ]
+  },
+  "shield-alert": {
+    "category": "Security",
+    "tags": [
+      "warning",
+      "security",
+      "caution",
+      "protect"
+    ]
+  },
+  "key-round": {
+    "category": "Security",
+    "tags": [
+      "password",
+      "access",
+      "credential",
+      "round"
+    ]
+  },
+  "palette": {
+    "category": "Misc",
+    "tags": [
+      "colors",
+      "art",
+      "paint",
+      "design"
+    ]
+  },
+  "lightbulb": {
+    "category": "Misc",
+    "tags": [
+      "idea",
+      "light",
+      "innovation",
+      "bright"
+    ]
+  },
+  "plug": {
+    "category": "Misc",
+    "tags": [
+      "electric",
+      "power",
+      "connect",
+      "socket"
+    ]
+  },
+  "rocket": {
+    "category": "Misc",
+    "tags": [
+      "launch",
+      "startup",
+      "fast",
+      "space"
+    ]
+  },
+  "hourglass": {
+    "category": "Misc",
+    "tags": [
+      "time",
+      "wait",
+      "loading",
+      "timer"
+    ]
+  },
+  "anchor": {
+    "category": "Misc",
+    "tags": [
+      "marine",
+      "port",
+      "link",
+      "stable"
+    ]
+  },
+  "clock-pause": {
+    "category": "Misc",
+    "tags": [
+      "time",
+      "pause",
+      "wait",
+      "hold"
+    ]
+  },
+  "clock-check": {
+    "category": "Misc",
+    "tags": [
+      "time",
+      "done",
+      "complete",
+      "verified"
+    ]
+  },
+  "clock-plus": {
+    "category": "Misc",
+    "tags": [
+      "time",
+      "add",
+      "schedule",
+      "new"
+    ]
+  },
+  "eraser-off": {
+    "category": "Actions",
+    "tags": [
+      "erase",
+      "disabled",
+      "no-erase",
+      "off"
+    ]
+  },
+  "wand-off": {
+    "category": "Actions",
+    "tags": [
+      "magic",
+      "disabled",
+      "no-magic",
+      "off"
     ]
   }
 } as const

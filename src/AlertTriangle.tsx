@@ -17,7 +17,7 @@ const AlertTriangle = forwardRef<SVGSVGElement, AlertTriangleProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M12 3 3 21h18z"/><path d="M12 10v5"/><path d="M12 18h0"/>
+      <path d="M12 3 3 21h18z"/><path d="M12 10v5"/><path d="M12 18h.01"/>
     </svg>
   )
 )

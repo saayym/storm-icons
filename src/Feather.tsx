@@ -17,7 +17,7 @@ const Feather = forwardRef<SVGSVGElement, FeatherProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><path d="M16 8 2 22"/><path d="M17.5 15H9"/>
+      <path d="m4 20 10-10m0-5v5h5m-9-1v5h5m-9-1v5h5m-5-5 4-4 4-4"/><path d="M19 10c.638-.636 1-1.515 1-2.486A3.515 3.515 0 0 0 16.483 4c-.97 0-1.847.367-2.483 1m-3 13 4-4 4-4"/>
     </svg>
   )
 )

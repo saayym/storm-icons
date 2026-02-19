@@ -17,7 +17,7 @@ const Italic = forwardRef<SVGSVGElement, ItalicProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M19 4h-9"/><path d="M14 20H5"/><path d="M15 4 9 20"/>
+      <path d="M11 5h6"/><path d="M7 19h6"/><path d="m14 5-4 14"/>
     </svg>
   )
 )

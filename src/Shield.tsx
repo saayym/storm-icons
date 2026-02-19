@@ -17,7 +17,7 @@ const Shield = forwardRef<SVGSVGElement, ShieldProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M12 3 4 7v5c0 5.25 3.4 10.15 8 11 4.6-.85 8-5.75 8-11V7z"/>
+      <path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3"/>
     </svg>
   )
 )

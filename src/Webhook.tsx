@@ -12,12 +12,12 @@ const Webhook = forwardRef<SVGSVGElement, WebhookProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M18 16.98h1a2 2 0 0 0 2-2v-1a2 2 0 0 0-4 0"/><path d="M14 7.98h-2a2 2 0 0 0-2 2v1a2 2 0 0 0 4 0"/><path d="M6 16.98H5a2 2 0 0 1-2-2v-1a2 2 0 0 1 4 0"/><circle cx="12" cy="18" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="12" r="2"/>
+      <path d="M4.876 13.61A4 4 0 1 0 11 17h6"/><path d="M15.066 20.502A4 4 0 1 0 17 13c-.706 0-1.424.179-2 .5L12 8"/><path d="M16 8a4 4 0 1 0-8 0c0 1.506.77 2.818 2 3.5L7 17"/>
     </svg>
   )
 )

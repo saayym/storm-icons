@@ -12,12 +12,12 @@ const Crown = forwardRef<SVGSVGElement, CrownProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="m2 4 3 12h14l3-12-6 7-4-7-4 7z"/><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7z"/><path d="M5 20h14"/>
+      <path d="M2 18 4 6l5 5 3-7 3 7 5-5 2 12z"/><path d="M2 18h20"/>
     </svg>
   )
 )

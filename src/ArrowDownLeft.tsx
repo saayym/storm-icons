@@ -17,7 +17,7 @@ const ArrowDownLeft = forwardRef<SVGSVGElement, ArrowDownLeftProps>(
       strokeLinejoin="miter"
       {...props}
     >
-      <path d="M17 7 7 17"/><path d="M17 17H7V7"/>
+      <path d="M17 7 7 17"/><path d="M16 17H7V8"/>
     </svg>
   )
 )

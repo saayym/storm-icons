@@ -12,12 +12,12 @@ const Store = forwardRef<SVGSVGElement, StoreProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path fill="currentColor" fillOpacity=".15" stroke="none" d="m3 9 1-4h16l1 4z"/><path d="m3 9 1-4h16l1 4"/><path d="M3 9h18v12H3z"/><path d="M10 9v12"/><path d="M3 9c0 1.66 1.34 3 3 3s3-1.34 3-3"/><path d="M9 9c0 1.66 1.34 3 3 3s3-1.34 3-3"/><path d="M15 9c0 1.66 1.34 3 3 3s3-1.34 3-3"/>
+      <path d="m3 9 1-5h16l1 5"/><path d="M3 9a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0 3 3 3 3 0 0 0 3-3"/><path d="M4 12v9"/><path d="M20 12v9"/><path d="M4 21h16"/><path d="M9 15h6v6H9z"/>
     </svg>
   )
 )

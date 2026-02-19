@@ -12,12 +12,12 @@ const LineChart = forwardRef<SVGSVGElement, LineChartProps>(
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       {...props}
     >
-      <path d="M3 3v18h18"/><path d="m18.7 8-5.1 5.2-2.8-2.7L7 14.3"/>
+      <path d="M3 3v18"/><path d="M3 21h18"/><path d="m6 16 4-6 4 4 7-9"/>
     </svg>
   )
 )
